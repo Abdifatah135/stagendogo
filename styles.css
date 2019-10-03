@@ -1,0 +1,50 @@
+nav {
+    margin: 0 auto;
+    padding: 0.1% 0;
+    margin-right: 0;
+  }
+  nav > ul{
+    text-align: center;
+    width: 100%;
+  }
+  ul > li{
+    display: inline-block;
+    padding: 16px;
+  }
+  ul > li > a{
+    text-transform: uppercase;
+    padding: 0.2%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  ul > li > a:hover{
+    box-shadow: 0 0 0 0.625em rgba(0, 0, 0, 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6);
+    
+    color:blue;
+  }
+  body{
+      background-color: white;
+      height: 100vh;
+      background-image: linear-gradient(white, green);
+      background:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.5)), url("images/IMG-20190727-WA0048.jpg") no-repeat center center/cover; */
+        }
+ h1, h4{
+      text-align: center;
+  }
+  
+  .logo{
+    display: block;
+    margin:0 auto;
+  }
+  p,h3{
+    text-align: center;
+    font-weight: bold;
+    font-size:130;
+  }
+  .footer{
+    text-align: center;
+   background-color: lightgreen;
+   /* display: inline-flexbox; */
+  }
